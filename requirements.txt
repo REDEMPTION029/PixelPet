@@ -1,0 +1,2 @@
+# Native Windows desktop pet: Python 3.14, standard library only.
+# No pip installation required, including the sprite-sheet importer.

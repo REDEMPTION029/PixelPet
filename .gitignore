@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+runtime/
+pet.log
+config.json
+build/
+dist/
+release/
+backups/
+docs/cleanup_record.json
+*.spec
+.env
+.env.*
+!.env.example
+*.pem
+*.key
