@@ -1,0 +1,148 @@
+{
+  "held": [
+    {
+      "source_cell": 0,
+      "source_bbox": [
+        169,
+        30,
+        600,
+        595
+      ],
+      "placement": [
+        84,
+        20
+      ],
+      "scale": 0.8
+    },
+    {
+      "source_cell": 1,
+      "source_bbox": [
+        707,
+        37,
+        1144,
+        598
+      ],
+      "placement": [
+        81,
+        23
+      ],
+      "scale": 0.8
+    },
+    {
+      "source_cell": 2,
+      "source_bbox": [
+        161,
+        634,
+        596,
+        1183
+      ],
+      "placement": [
+        82,
+        33
+      ],
+      "scale": 0.8
+    }
+  ],
+  "peek": [
+    {
+      "source_cell": 0,
+      "source_bbox": [
+        166,
+        59,
+        526,
+        606
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    },
+    {
+      "source_cell": 1,
+      "source_bbox": [
+        733,
+        60,
+        1100,
+        606
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    },
+    {
+      "source_cell": 3,
+      "source_bbox": [
+        732,
+        667,
+        1100,
+        1206
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    }
+  ],
+  "walk": [
+    {
+      "source_cell": 0,
+      "source_bbox": [
+        159,
+        17,
+        504,
+        576
+      ],
+      "placement": [
+        114,
+        38
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 1,
+      "source_bbox": [
+        760,
+        17,
+        1106,
+        576
+      ],
+      "placement": [
+        114,
+        38
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 2,
+      "source_bbox": [
+        144,
+        651,
+        501,
+        1210
+      ],
+      "placement": [
+        110,
+        38
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 3,
+      "source_bbox": [
+        760,
+        651,
+        1114,
+        1210
+      ],
+      "placement": [
+        111,
+        38
+      ],
+      "scale": 0.82
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Fix only the facing/gaze direction in this peeking sprite sheet. Image1 is the edit target; image2 is the girl's identity. Keep the FOUR-cell 2x2 layout, SAME transparent background and SAME hands/clothing grip positions on the LEFT of each cell. The character must be peeking FROM the LEFT edge and LOOKING INTO THE SCREEN TO THE RIGHT. Current target incorrectly looks LEFT toward the gripped edge. Correct this by turning ONLY her head/face and eye gaze to the RIGHT: her near ear should appear on the VIEWER-LEFT side of the head, nose and mouth slightly RIGHT of head centre, pupils looking distinctly RIGHT within her unchanged black glasses. Hair follows the head turn while retaining the same parted long black hair. Do NOT mirror the entire sprite: the gripping hands MUST stay on the LEFT. Keep the head on the right side of the invisible left edge and retain the navy varsity jacket/ivory cuffs, exact face identity, chibi proportions and pixel-textured shading. Frame1 open eyes looking RIGHT; frame2 eyes closed blink with head still turned RIGHT; frame3 open eyes looking RIGHT; frame4 tiny smile looking RIGHT. Do not add an edge/bar/line, no lower body, no text, no glow or shadows. True alpha transparency. This is a purposeful opposite head turn around fixed hands, not just shifting the pupils in an otherwise left-facing face. Preserve the original head size across all four cells.",
+  "target": "assets/sheets/peek-v05.png",
+  "identity": "reference_original.png",
+  "output": "assets/sheets/peek-v051.png",
+  "base_facing": "right"
+}

@@ -1,0 +1,104 @@
+{
+  "peek": [
+    {
+      "source_cell": 0,
+      "source_bbox": [
+        148,
+        48,
+        539,
+        614
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    },
+    {
+      "source_cell": 1,
+      "source_bbox": [
+        728,
+        48,
+        1117,
+        615
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    },
+    {
+      "source_cell": 3,
+      "source_bbox": [
+        730,
+        658,
+        1140,
+        1222
+      ],
+      "placement": [
+        148,
+        24
+      ],
+      "scale": 0.78
+    }
+  ],
+  "walk": [
+    {
+      "source_cell": 0,
+      "source_bbox": [
+        139,
+        42,
+        596,
+        600
+      ],
+      "placement": [
+        68,
+        38
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 1,
+      "source_bbox": [
+        733,
+        45,
+        1209,
+        612
+      ],
+      "placement": [
+        61,
+        31
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 2,
+      "source_bbox": [
+        130,
+        654,
+        615,
+        1206
+      ],
+      "placement": [
+        57,
+        43
+      ],
+      "scale": 0.82
+    },
+    {
+      "source_cell": 3,
+      "source_bbox": [
+        729,
+        654,
+        1221,
+        1211
+      ],
+      "placement": [
+        54,
+        39
+      ],
+      "scale": 0.82
+    }
+  ]
+}

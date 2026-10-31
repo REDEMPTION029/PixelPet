@@ -1,0 +1,234 @@
+{
+  "sitTransition": [
+    {
+      "file": "assets/sitTransition/sitTransition_01.png",
+      "source_foot": [
+        268,
+        533
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        109,
+        18,
+        458,
+        536
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "0e2c7e4160edecfd0b1c484e562a000789b9e3e21ae8310a9b734a599cb1bd17"
+    },
+    {
+      "file": "assets/sitTransition/sitTransition_02.png",
+      "source_foot": [
+        242,
+        540
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        586,
+        26,
+        938,
+        543
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "fcf3fc03b84e982a37634a17637ae2cc0fe7089c723e3b703d56fdceadc6400d"
+    },
+    {
+      "file": "assets/sitTransition/sitTransition_03.png",
+      "source_foot": [
+        226,
+        538
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        1089,
+        63,
+        1448,
+        541
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "6393f6029d9559fd5d371172811ef61d181be254c04d07e4d2b454f08b83fcb2"
+    },
+    {
+      "file": "assets/sitTransition/sitTransition_04.png",
+      "source_foot": [
+        287,
+        434
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        112,
+        580,
+        478,
+        997
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "7f766cb78cf0bb7b72479cb91699824c5044f64aa0ec60f89a6042574139a958"
+    },
+    {
+      "file": "assets/sitTransition/sitTransition_05.png",
+      "source_foot": [
+        207,
+        440
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        604,
+        576,
+        969,
+        1003
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "4fe9ad72c30ec469f56f037eaeea87e907df5447ee90ebcbd04aed864d82ac7f"
+    },
+    {
+      "file": "assets/sitTransition/sitTransition_06.png",
+      "source_foot": [
+        200,
+        446
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        1080,
+        577,
+        1456,
+        1009
+      ],
+      "scale": 0.91,
+      "pixel_sha256": "55d6def4a93734c5ece048ce12634b1c1d47ab5101cda8c2e005528839636efe"
+    }
+  ],
+  "adjustGlasses": [
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_01.png",
+      "source_foot": [
+        282,
+        484
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        142,
+        16,
+        451,
+        487
+      ],
+      "scale": 1,
+      "pixel_sha256": "cd8a5c7378c5733b9d29641aed6a611b48aa08c4cd812590f6f86c4bd00157e7"
+    },
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_02.png",
+      "source_foot": [
+        236,
+        484
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        605,
+        15,
+        915,
+        487
+      ],
+      "scale": 1,
+      "pixel_sha256": "a784fae30154eff489737e7893b5075e7b03e13c0067376aa82927af46b794ca"
+    },
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_03.png",
+      "source_foot": [
+        204,
+        484
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        1082,
+        15,
+        1395,
+        487
+      ],
+      "scale": 1,
+      "pixel_sha256": "9d4b7acdfc2a854a58d423692edee3d2717416be86b816578436f386898565ef"
+    },
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_04.png",
+      "source_foot": [
+        292,
+        480
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        151,
+        518,
+        464,
+        995
+      ],
+      "scale": 1,
+      "pixel_sha256": "7ddd9048b70b31e48c083b47db55eeaba533436f1726b8bd9fced9205dbf3c93"
+    },
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_05.png",
+      "source_foot": [
+        248,
+        480
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        611,
+        519,
+        935,
+        995
+      ],
+      "scale": 1,
+      "pixel_sha256": "1125603b2e876f66896ad7ac20592612d8c104353cc7eeeaa7f296d228bfb4b7"
+    },
+    {
+      "file": "assets/adjustGlasses/adjustGlasses_06.png",
+      "source_foot": [
+        208,
+        480
+      ],
+      "anchor": [
+        256,
+        496
+      ],
+      "source_box": [
+        1084,
+        519,
+        1398,
+        995
+      ],
+      "scale": 1,
+      "pixel_sha256": "1e9ef2804e8ab7e9fd4b46c73e6da9f8b409c6fa5ba7902e9100b14fc3950a86"
+    }
+  ]
+}

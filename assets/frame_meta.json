@@ -1,0 +1,496 @@
+{
+  "idle": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      1600,
+      240,
+      90,
+      110,
+      130,
+      700
+    ],
+    "loop": true,
+    "next": null,
+    "loop_start": 0,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "walk": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      85,
+      75,
+      65,
+      75,
+      85,
+      75,
+      65,
+      75
+    ],
+    "loop": true,
+    "next": null,
+    "loop_start": 0,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ],
+    "enter": "walkEnter",
+    "exit": "walkExit",
+    "cycle_distance": 96,
+    "base_facing": "left"
+  },
+  "headClick": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      140,
+      160,
+      180,
+      450,
+      200,
+      160
+    ],
+    "loop": false,
+    "next": "idle",
+    "loop_start": 0,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "bodyClick": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      120,
+      160,
+      180,
+      450,
+      200,
+      180
+    ],
+    "loop": false,
+    "next": "idle",
+    "loop_start": 0,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "sleep": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      450,
+      500,
+      800,
+      1000,
+      900,
+      900
+    ],
+    "loop": true,
+    "next": null,
+    "loop_start": 2,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ],
+    "enter": "sleepEnter",
+    "exit": "sleepExit"
+  },
+  "happy": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      130,
+      180,
+      110,
+      200,
+      180,
+      260
+    ],
+    "loop": false,
+    "next": "idle",
+    "loop_start": 0,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "adjustGlasses": {
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      100,
+      150,
+      180,
+      360,
+      160,
+      180
+    ],
+    "loop": false,
+    "next": "idle",
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "sleepEnter": {
+    "frame_files": [
+      "idle/idle_01.png",
+      "sitTransition/sitTransition_02.png",
+      "sitTransition/sitTransition_03.png",
+      "sitTransition/sitTransition_04.png",
+      "sitTransition/sitTransition_05.png",
+      "sleep/sleep_01.png"
+    ],
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      100,
+      160,
+      180,
+      200,
+      180,
+      150
+    ],
+    "loop": false,
+    "next": "sleep",
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "sleepExit": {
+    "frame_files": [
+      "sleep/sleep_01.png",
+      "sitTransition/sitTransition_05.png",
+      "sitTransition/sitTransition_04.png",
+      "sitTransition/sitTransition_03.png",
+      "sitTransition/sitTransition_02.png",
+      "idle/idle_01.png"
+    ],
+    "duration_ms": 160,
+    "frame_durations_ms": [
+      120,
+      160,
+      180,
+      180,
+      170,
+      160
+    ],
+    "loop": false,
+    "next": "idle",
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ]
+  },
+  "walkEnter": {
+    "frame_files": [
+      "idle/idle_01.png",
+      "walk/walk_02.png"
+    ],
+    "duration_ms": 110,
+    "loop": false,
+    "next": "walk"
+  },
+  "walkExit": {
+    "frame_files": [
+      "walk/walk_06.png",
+      "idle/idle_01.png"
+    ],
+    "duration_ms": 140,
+    "loop": false,
+    "next": "idle"
+  },
+  "peek": {
+    "duration_ms": 300,
+    "frame_durations_ms": [
+      1800,
+      110,
+      1500
+    ],
+    "loop": true,
+    "next": null,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ],
+    "grip_x": 160,
+    "base_facing": "right",
+    "gaze": "viewer"
+  },
+  "dragRun": {
+    "frame_files": [
+      "walk/walk_01.png",
+      "walk/walk_02.png",
+      "walk/walk_03.png",
+      "walk/walk_04.png",
+      "walk/walk_05.png",
+      "walk/walk_06.png",
+      "walk/walk_07.png",
+      "walk/walk_08.png"
+    ],
+    "duration_ms": 170,
+    "frame_durations_ms": [
+      95,
+      85,
+      75,
+      85,
+      95,
+      85,
+      75,
+      85
+    ],
+    "loop": true,
+    "next": null,
+    "anchors": [
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ],
+      [
+        256,
+        496
+      ]
+    ],
+    "base_facing": "left"
+  }
+}

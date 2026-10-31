@@ -1,0 +1,122 @@
+[
+  {
+    "source": "run-v070-a.png",
+    "cell": 0,
+    "bbox": [
+      71,
+      16,
+      444,
+      440
+    ],
+    "scale": 1.06,
+    "placement": [
+      97,
+      30
+    ]
+  },
+  {
+    "source": "run-v070-a.png",
+    "cell": 1,
+    "bbox": [
+      500,
+      16,
+      886,
+      431
+    ],
+    "scale": 1.06,
+    "placement": [
+      97,
+      32
+    ]
+  },
+  {
+    "source": "run-v070-a.png",
+    "cell": 2,
+    "bbox": [
+      925,
+      16,
+      1308,
+      431
+    ],
+    "scale": 1.06,
+    "placement": [
+      97,
+      29
+    ]
+  },
+  {
+    "source": "run-v070-a.png",
+    "cell": 3,
+    "bbox": [
+      1355,
+      13,
+      1745,
+      409
+    ],
+    "scale": 1.06,
+    "placement": [
+      96,
+      26
+    ]
+  },
+  {
+    "source": "run-v070-b.png",
+    "cell": 0,
+    "bbox": [
+      120,
+      47,
+      616,
+      616
+    ],
+    "scale": 0.78,
+    "placement": [
+      98,
+      30
+    ]
+  },
+  {
+    "source": "run-v070-b.png",
+    "cell": 1,
+    "bbox": [
+      718,
+      46,
+      1222,
+      619
+    ],
+    "scale": 0.78,
+    "placement": [
+      100,
+      32
+    ]
+  },
+  {
+    "source": "run-v070-b.png",
+    "cell": 2,
+    "bbox": [
+      123,
+      651,
+      616,
+      1186
+    ],
+    "scale": 0.78,
+    "placement": [
+      101,
+      29
+    ]
+  },
+  {
+    "source": "run-v070-b.png",
+    "cell": 3,
+    "bbox": [
+      715,
+      650,
+      1232,
+      1217
+    ],
+    "scale": 0.78,
+    "placement": [
+      98,
+      26
+    ]
+  }
+]
