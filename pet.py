@@ -25,6 +25,14 @@ def smoke_test(report_path):
                 app.player.index = index
                 app.render(force=True)
         if "--headless-smoke" in sys.argv:
+            assert app.player.cycle_intervals['peek']==10
+            app.player.play('peek')
+            app.player.advance(3.5)
+            assert app.player.index==0
+            app.player.advance(6.5)
+            assert (app.player.index,app.player.elapsed)==(0,0)
+            app.player.advance(8.4)
+            assert app.player.index==1
             panel=app.overlay.painter.surface(299,"focus",False,0)
             pixels=ctypes.string_at(panel.bits,panel.width*panel.height*4)
             assert sum(a>0 for a in pixels[3::4])>400
@@ -42,6 +50,7 @@ def smoke_test(report_path):
             report_path.parent.mkdir(parents=True,exist_ok=True)
             report_path.write_text(json.dumps({"ok":True,"frozen":bool(getattr(sys,"frozen",False)),
                 "headless":True,"actions":counts,"countdown_render":True,"icon_handles":True,
+                "animation_timing":True,
                 "session_roundtrip":True,"cache_bytes":app.cache.bytes,"cache_budget":app.cache.byte_budget,
                 "dpi":app.dpi,"monitors":app.displays,
                 "resources":str(ROOT),"settings":str(DATA_DIR)},ensure_ascii=False,indent=2),encoding="utf-8")
